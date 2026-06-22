@@ -1,0 +1,7 @@
+jdk:
+  - oraclejdk24 # 或者 openjdk11，根据你项目实际使用的版本
+
+build:
+  maven:
+    version: 3.8.6
+  command: mvn clean install
